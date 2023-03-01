@@ -48,11 +48,7 @@ public class RegisterUser {
         nohp.setBounds(50, 300, 100, 30);
         j.add(nohp);
         
-        JCheckBox hobi = new JCheckBox();
-        hobi.setText("Hobi");
-        hobi.setBounds(50, 350, 100, 30);
-        
-        JTextArea alamat = new JTextArea();
+        JLabel alamat = new JLabel();
         alamat.setText("Alamat");
         alamat.setBounds(50, 400, 100, 30);
         
@@ -76,14 +72,17 @@ public class RegisterUser {
         nohpTxt.setBounds(150, 300, 200, 30);
         j.add(nohpTxt);
         
+        JTextArea testTxt = new JTextArea();
+        testTxt.setBounds(150, 400, 200, 200);
+        j.add(testTxt);
+        
         JButton registerButton = new JButton();
-        registerButton.setText("Login");
+        registerButton.setText("Register");
         registerButton.setBounds(150, 350, 100, 50);
         j.add(registerButton);
         
-        JTextArea testTxt = new JTextArea();
-        testTxt.setBounds(100, 400, 200, 200);
-        j.add(testTxt);
+        
+        
                 
         j.setSize(800, 800);
         j.setLayout(null);
